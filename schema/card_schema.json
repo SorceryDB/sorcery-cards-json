@@ -6,6 +6,17 @@
         {
             "properties": {
                 "type_code": {
+                    "const": "avatar"
+                }
+            },
+            "required": [
+                "health",
+                "power"
+            ]
+        },
+        {
+            "properties": {
+                "type_code": {
                     "const": "agenda"
                 }
             },
@@ -113,6 +124,10 @@
             "minLength": 1,
             "type": "string"
         },
+        "health": {
+            "minimum": 0,
+            "type": "integer"
+        },
         "illustrator": {
             "pattern": ".+",
             "type": "string"
@@ -149,6 +164,10 @@
             "minimum": 1,
             "type": "integer"
         },
+        "power": {
+            "minimum": 0,
+            "type": "integer"
+        },
         "quantity": {
             "minimum": 1,
             "type": "integer"
@@ -175,6 +194,10 @@
             "minLength": 1,
             "type": "string"
         },
+        "stripped_type_line": {
+            "minLength": 1,
+            "type": "string"
+        },
         "text": {
             "minLength": 1,
             "type": "string"
@@ -191,18 +214,20 @@
             "minLength": 1,
             "type": "string"
         },
+        "type_line": {
+            "minLength": 1,
+            "type": "string"
+        },
         "uniqueness": {
             "type": "boolean"
         }
     },
     "required": [
         "code",
-        "faction_code",
         "deck_limit",
         "pack_code",
         "position",
         "quantity",
-        "side_code",
         "title",
         "type_code",
         "uniqueness"

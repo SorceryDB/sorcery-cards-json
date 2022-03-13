@@ -1,0 +1,17 @@
+[
+    {
+        "code": "02001",
+        "deck_limit": 1,
+        "health": 20,
+        "pack_code": "pksp",
+        "position": 1,
+        "power": 1,
+        "quantity": 1,
+        "stripped_text": "Tap > Play or draw a site.\nTap, discard a Fire site > You may move one step. Cast Firebolts for Free.",
+        "stripped_title": "Avatar of Fire",
+        "stripped_type_line": "Your Avatar of desire and destruction.",
+        "title": "Avatar of Fire",
+        "type_code": "avatar",
+        "uniqueness": false
+    }
+]

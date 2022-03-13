@@ -1,0 +1,17 @@
+[
+    {
+        "code": "02000",
+        "deck_limit": 1,
+        "health": 20,
+        "pack_code": "pksc",
+        "position": 1,
+        "power": 1,
+        "quantity": 1,
+        "stripped_text": "Spellcaster\nTap to play a site or to draw from your atlas.\nYou start the game with 4 spells in your hand instead of 3.",
+        "stripped_title": "Sorcerer",
+        "stripped_type_line": "Your Avatar will win, no contest.",
+        "title": "Sorcerer",
+        "type_code": "avatar",
+        "uniqueness": false
+    }
+]

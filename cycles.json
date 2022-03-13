@@ -1,5 +1,12 @@
 [
     {
+        "code": "pre-kickstarter",
+        "name": "Pre-Kickstarter",
+        "position": 0,
+        "rotated": false,
+        "size": 1
+    },
+    {
         "code": "draft",
         "name": "Draft",
         "position": 0,

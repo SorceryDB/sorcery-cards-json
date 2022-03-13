@@ -56,6 +56,12 @@
         "side_code": "runner"
     },
     {
+        "code": "avatar",
+        "is_subtype": false,
+        "name": "Avatar",
+        "side_code": null
+    },
+    {
         "code": "identity",
         "is_subtype": false,
         "name": "Identity",

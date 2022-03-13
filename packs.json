@@ -1,5 +1,23 @@
 [
     {
+        "code": "pksc",
+        "cycle_code": "pre-kickstarter",
+        "date_release": "2022-03-13",
+        "ffg_id": null,
+        "name": "Pre-Kickstarter Cards",
+        "position": 1,
+        "size": 1
+    },
+    {
+        "code": "pksp",
+        "cycle_code": "pre-kickstarter",
+        "date_release": "2022-03-13",
+        "ffg_id": null,
+        "name": "Pre-Kickstarter Preconstructed Decks",
+        "position": 1,
+        "size": 1
+    },
+    {
         "code": "23s",
         "cycle_code": "flashpoint",
         "date_release": "2016-07-14",

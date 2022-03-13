@@ -1,0 +1,11 @@
+{
+    "card_type_id": "avatar",
+    "deck_limit": 1,
+    "id": "avatar_of_fire",
+    "is_unique": false,
+    "stripped_type_line": "Your Avatar of desire and destruction.",
+    "stripped_title": "Avatar of Fire",
+    "stripped_text":"Tap > Play or draw a site.\nTap, discard a Fire site > You may move one step. Cast Firebolts for Free.",
+    "health": 20,
+    "power": 1
+}

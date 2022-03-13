@@ -1,5 +1,9 @@
 [
     {
+        "code": "preconstructed_decks",
+        "name": "Preconstructed Decks"
+    },
+    {
         "code": "campaign",
         "name": "Campaign"
     },

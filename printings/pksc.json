@@ -1,0 +1,13 @@
+[
+    {
+        "card_id": "sorcerer",
+        "card_set_id": "prekscore",
+        "id": "02000",
+        "illustrator": "Francesca Baerald",
+        "stripped_type_line": "Your Avatar will win, no contest.",
+        "stripped_title": "Sorcerer",
+        "stripped_text":"Spellcaster\nTap to play a site or to draw from your atlas.\nYou start the game with 4 spells in your hand instead of 3.",
+        "health": 20,
+        "power": 1
+    }
+]
