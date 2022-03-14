@@ -172,10 +172,6 @@
             "minimum": 1,
             "type": "integer"
         },
-        "side_code": {
-            "minLength": 1,
-            "type": "string"
-        },
         "strength": {
             "oneOf": [
                 {

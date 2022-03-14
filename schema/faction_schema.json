@@ -24,10 +24,6 @@
         "name": {
             "minLength": 1,
             "type": "string"
-        },
-        "side_code": {
-            "minLength": 1,
-            "type": "string"
         }
     },
     "required": [

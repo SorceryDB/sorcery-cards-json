@@ -1,8 +1,10 @@
 [
     {
-        "code": "02000",
+        "code": "04000",
         "deck_limit": 1,
+        "faction_code": "neutral",
         "health": 20,
+        "illustrator": "Francesca Baerald",
         "pack_code": "pksc",
         "position": 1,
         "power": 1,
@@ -10,6 +12,7 @@
         "stripped_text": "Spellcaster\nTap to play a site or to draw from your atlas.\nYou start the game with 4 spells in your hand instead of 3.",
         "stripped_title": "Sorcerer",
         "stripped_type_line": "Your Avatar will win, no contest.",
+        "text": "Spellcaster\nTap to play a site or to draw from your atlas.\nYou start the game with 4 spells in your hand instead of 3.",
         "title": "Sorcerer",
         "type_code": "avatar",
         "uniqueness": false

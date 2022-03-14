@@ -57,7 +57,6 @@ describe("example test", function() {
 				"color_xterm",
 				"is_mini",
 				"name",
-				"side_code",
 			);
 		}
 	});

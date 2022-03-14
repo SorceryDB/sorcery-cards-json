@@ -42,7 +42,7 @@ def check_json_schema(args, data, path):
         verbose_print(args, "%s\n" % e.message, 0)
         return False
 
-def custom_card_check(args, card, pack_code, factions_data, types_data, sides_data):
+def custom_card_check(args, card, pack_code, factions_data, types_data):
     "Performs more in-depth sanity checks than jsonschema validator is capable of. Assumes that the basic schema validation has already completed successfully."
     if card["pack_code"] != pack_code:
         raise jsonschema.ValidationError("Pack code '%s' of the card '%s' doesn't match the pack code '%s' of the file it appears in." % (card["pack_code"], card["code"], pack_code))
@@ -181,13 +181,13 @@ def parse_commandline():
 
     return args
 
-def validate_card(args, card, card_schema, pack_code, factions_data, types_data, sides_data):
+def validate_card(args, card, card_schema, pack_code, factions_data, types_data):
     global validation_errors
 
     try:
         verbose_print(args, "Validating card %s... " % card["title"], 2)
         jsonschema.validate(card, card_schema)
-        custom_card_check(args, card, pack_code, factions_data, types_data, sides_data)
+        custom_card_check(args, card, pack_code, factions_data, types_data)
         verbose_print(args, "OK\n", 2)
     except jsonschema.ValidationError as e:
         verbose_print(args, "ERROR\n",2)
@@ -243,7 +243,7 @@ def verify_text_has_fancy_text(args, card, pack_code):
         )
         validation_errors += 1
 
-def validate_cards(args, packs_data, factions_data, types_data, sides_data):
+def validate_cards(args, packs_data, factions_data, types_data):
     global validation_errors
     global text_by_card_title
 
@@ -270,7 +270,7 @@ def validate_cards(args, packs_data, factions_data, types_data, sides_data):
             if card.get('title') not in stripped_text_by_card_title:
                 stripped_text_by_card_title[card.get('title')] = set()
             stripped_text_by_card_title[card.get('title')].add(card.get('stripped_text'))
-            validate_card(args, card, CARD_SCHEMA, p["code"], factions_data, types_data, sides_data)
+            validate_card(args, card, CARD_SCHEMA, p["code"], factions_data, types_data)
             verify_stripped_text_is_ascii(args, card, p["code"])
             verify_text_has_fancy_text(args, card, p["code"])
 
@@ -576,10 +576,8 @@ def main():
 
     types = load_types(args)
 
-    sides = load_sides(args)
-
-    if packs and factions and types and sides:
-        validate_cards(args, packs, factions, types, sides)
+    if packs and factions and types:
+        validate_cards(args, packs, factions, types)
     else:
         verbose_print(args, "Skipping card validation...\n", 0)
 
