@@ -1,16 +1,16 @@
 [
     {
         "card_cycle_id": "pre-kickstarter",
-        "card_set_type_id": "core",
+        "card_set_type_id": "expansion",
         "date_release": null,
         "id": "pksc",
-        "name": "Pre-Kickstarter Core",
+        "name": "Pre-Kickstarter Set 1",
         "position": 1,
         "size": null
     },
     {
         "card_cycle_id": "pre-kickstarter",
-        "card_set_type_id": "precons",
+        "card_set_type_id": "data_pack",
         "date_release": null,
         "id": "pksp",
         "name": "Pre-Kickstarter Preconstructed Decks",

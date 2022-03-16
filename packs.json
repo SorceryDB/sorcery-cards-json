@@ -4,9 +4,9 @@
         "cycle_code": "pre-kickstarter",
         "date_release": "2022-03-13",
         "ffg_id": null,
-        "name": "Pre-Kickstarter Cards",
+        "name": "Pre-Kickstarter Cards Base Set",
         "position": 1,
-        "size": 1
+        "size": 11
     },
     {
         "code": "pksp",
@@ -15,7 +15,7 @@
         "ffg_id": null,
         "name": "Pre-Kickstarter Preconstructed Decks",
         "position": 1,
-        "size": 1
+        "size": 4
     },
     {
         "code": "23s",
