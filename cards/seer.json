@@ -1,0 +1,11 @@
+{
+    "card_type_id": "avatar",
+    "deck_limit": 1,
+    "health": 20,
+    "id": "seer",
+    "is_unique": false,
+    "power": 1,
+    "stripped_text": "Spellcaster\nTap to play a site or to draw from your atlas.\nWhen you draw a spell, instead draw two and put one back. You may pay 1 life to put a spell back at the bottom of the spellbook instead.",
+    "stripped_title": "Seer",
+    "stripped_type_line": "Your Avatar prognosticates a certain success."
+}

@@ -1,0 +1,11 @@
+{
+    "card_type_id": "avatar",
+    "deck_limit": 1,
+    "health": 20,
+    "id": "pathfinder",
+    "is_unique": false,
+    "power": 1,
+    "stripped_text": "Spellcaster, Movement +1\nTap to draw once from your atlas.\nThis Avatar may move onto an empty location, placing the top site from your atlas there.",
+    "stripped_title": "Pathfinder",
+    "stripped_type_line": "Your Avatar finds the way to victory."
+}

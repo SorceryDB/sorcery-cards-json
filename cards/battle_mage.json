@@ -1,0 +1,11 @@
+{
+    "card_type_id": "avatar",
+    "deck_limit": 1,
+    "health": 20,
+    "id": "battle_mage",
+    "is_unique": false,
+    "power": 5,
+    "stripped_text": "Tap to play a site or to draw from your atlas.\nWhenever this Battle Mage attacks, you may play a site or draw from your atlas.",
+    "stripped_title": "Battle Mage",
+    "stripped_type_line": "Your Avatar to win the battle and the war."
+}

@@ -1,0 +1,11 @@
+{
+    "card_type_id": "avatar",
+    "deck_limit": 1,
+    "health": 20,
+    "id": "enchantress",
+    "is_unique": false,
+    "power": 5,
+    "stripped_text": "Tap > Play or draw a site.\nConjure an aura > You may have a nearby aura You control instead become a minion with power equal to its mana cost until end of turn.",
+    "stripped_title": "Enchantress",
+    "stripped_type_line": "Your Avatar of transcendant triumph."
+}

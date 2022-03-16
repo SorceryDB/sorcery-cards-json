@@ -1,0 +1,11 @@
+{
+    "card_type_id": "avatar",
+    "deck_limit": 1,
+    "health": 20,
+    "id": "avatar_of_wind",
+    "is_unique": false,
+    "power": 1,
+    "stripped_text": "Tap > Play or draw a site.\nOnce on your turn, if You are on a Wind site, You may fly to a nearby site.",
+    "stripped_title": "Avatar of Wind",
+    "stripped_type_line": "Your Avatar of knowledge and power."
+}

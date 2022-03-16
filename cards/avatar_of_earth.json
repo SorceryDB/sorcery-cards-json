@@ -1,0 +1,12 @@
+{
+    "card_type_id": "avatar",
+    "deck_limit": 1,
+    "health": 20,
+    "id": "avatar_of_earth",
+    "is_unique": false,
+    "power": 1,
+    "quantity": 1,
+    "stripped_text": "Tap > Play or draw a site.\nYou gain +1 attack power for each nearby Earth site.",
+    "stripped_title": "Avatar of Earth",
+    "stripped_type_line": "Your Avatar of enduring strength."
+}

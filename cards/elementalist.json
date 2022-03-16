@@ -1,0 +1,11 @@
+{
+    "card_type_id": "avatar",
+    "deck_limit": 1,
+    "health": 20,
+    "id": "elementalist",
+    "is_unique": false,
+    "power": 1,
+    "stripped_text": "Spellcaster\nTap to play a site or to draw from your atlas.\nYou have [Earth][Fire][Water][Wind] threshold.",
+    "stripped_title": "Elementalist",
+    "stripped_type_line": "Your Avatar rises to the occassion."
+}

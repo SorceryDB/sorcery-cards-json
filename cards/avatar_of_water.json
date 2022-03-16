@@ -1,0 +1,12 @@
+{
+    "card_type_id": "avatar",
+    "deck_limit": 1,
+    "health": 20,
+    "id": "avatar_of_water",
+    "is_unique": false,
+    "power": 1,
+    "stripped_text": "Tap > Play or draw a site.\nYou may move to Water sites You play.\nThe site You are on is also a Water site.",
+    "stripped_title": "Avatar of Water",
+    "stripped_type_line": "Your Avatar of charm and trickery.",
+    "text": "Tap > Play or draw a site.\nYou may move to Water sites You play.\nThe site You are on is also a Water site."
+}

@@ -1,0 +1,11 @@
+{
+    "card_type_id": "avatar",
+    "deck_limit": 1,
+    "health": 20,
+    "id": "hex",
+    "is_unique": false,
+    "power": 1,
+    "stripped_text": "Spellcaster\nTap to play a site or to draw from your atlas.\nTap to turn target minion in a cardinal direction into a 0-power frog token. (Once per game.)",
+    "stripped_title": "Hex",
+    "stripped_type_line": "Your Avatar. An ugly win is still a win."
+}
