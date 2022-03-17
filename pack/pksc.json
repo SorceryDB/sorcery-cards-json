@@ -15,6 +15,7 @@
         "text": "Spellcaster\nTap to play a site or to draw from your atlas.\nYou start the game with 4 spells in your hand instead of 3.",
         "title": "Sorcerer",
         "type_code": "avatar",
+        "type_line": "Your Avatar will win, no contest.",
         "uniqueness": false
     },
     {
@@ -33,6 +34,7 @@
         "text": "Spellcaster\nTap to play a site or to draw from your atlas.\nYou have [Earth][Fire][Water][Wind] threshold.",
         "title": "Elementalist",
         "type_code": "avatar",
+        "type_line": "Your Avatar rises to the occassion.",
         "uniqueness": false
     },
     {
@@ -51,6 +53,7 @@
         "text": "Spellcaster, Movement +1\nTap to draw once from your atlas.\nThis Avatar may move onto an empty location, placing the top site from your atlas there.",
         "title": "Pathfinder",
         "type_code": "avatar",
+        "type_line": "Your Avatar finds the way to victory.",
         "uniqueness": false
     },
     {
@@ -69,6 +72,7 @@
         "text": "Spellcaster\nTap to play a site or to draw from your atlas.\nWhen you draw a spell, instead draw two and put one back. You may pay 1 life to put a spell back at the bottom of the spellbook instead.",
         "title": "Seer",
         "type_code": "avatar",
+        "type_line": "Your Avatar prognosticates a certain success.",
         "uniqueness": false
     },
     {
@@ -87,6 +91,7 @@
         "text": "Spellcaster\nTap to play a site or to draw from your atlas.\nTap to turn target minion in a cardinal direction into a 0-power frog token. (Once per game.)",
         "title": "Hex",
         "type_code": "avatar",
+        "type_line": "Your Avatar. An ugly win is still a win.",
         "uniqueness": false
     },
     {
@@ -105,6 +110,7 @@
         "text": "Tap to play a site or to draw from your atlas.\nWhenever this Battle Mage attacks, you may play a site or draw from your atlas.",
         "title": "Battle Mage",
         "type_code": "avatar",
+        "type_line": "Your Avatar to win the battle and the war.",
         "uniqueness": false
     },
     {
@@ -123,6 +129,7 @@
         "text": "Tap > Play or draw a site.\nConjure an aura > You may have a nearby aura You control instead become a minion with power equal to its mana cost until end of turn.",
         "title": "Enchantress",
         "type_code": "avatar",
+        "type_line": "Your Avatar of transcendant triumph.",
         "uniqueness": false
     }
 ]

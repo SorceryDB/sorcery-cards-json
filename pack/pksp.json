@@ -15,6 +15,7 @@
         "text": "Tap > Play or draw a site.\nTap, discard a Fire site > You may move one step. Cast Firebolts for Free.",
         "title": "Avatar of Fire",
         "type_code": "avatar",
+        "type_line": "Your Avatar of desire and destruction.",
         "uniqueness": false
     },
     {
@@ -33,6 +34,7 @@
         "text": "Tap > Play or draw a site.\nYou gain +1 [attack_power] for each nearby Earth site.",
         "title": "Avatar of Earth",
         "type_code": "avatar",
+        "type_line": "Your Avatar of enduring strength.",
         "uniqueness": false
     },
     {
@@ -51,6 +53,7 @@
         "text": "Tap > Play or draw a site.\nOnce on your turn, if You are on a Wind site, You may fly to a nearby site.",
         "title": "Avatar of Wind",
         "type_code": "avatar",
+        "type_line": "Your Avatar of knowledge and power.",
         "uniqueness": false
     },
     {
@@ -69,6 +72,7 @@
         "text": "Tap > Play or draw a site.\nYou may move to Water sites You play.\nThe site You are on is also a Water site.",
         "title": "Avatar of Water",
         "type_code": "avatar",
+        "type_line": "Your Avatar of charm and trickery.",
         "uniqueness": false
     }
 ]
