@@ -1,7 +1,7 @@
 [
     {
         "card_id": "sorcerer",
-        "card_set_id": "prekscore",
+        "card_set_id": "pksc",
         "id": "40000",
         "illustrator": "Francesca Baerald",
         "stripped_type_line": "Your Avatar will win, no contest.",
@@ -11,5 +11,29 @@
         "health": 20,
         "position": 1,
         "power": 1
+    },
+    {
+        "card_id": "windmill",
+        "card_set_id": "pksc",
+        "flavor": "",
+        "id": "40024",
+        "illustator": "Elwira Pawlikowska",
+        "position": 25,
+        "printed_is_unique": false,
+        "printed_text": "This site is both a Tower and a Village.",
+        "quantity": 1,
+        "stripped_printed_text": "This site is both a Tower and a Village."
+    },
+    {
+        "card_id": "sinkhole",
+        "card_set_id": "pksc",
+        "flavor": "",
+        "id": "40016",
+        "illustator": "Michal Nagypal",
+        "position": 17,
+        "printed_is_unique": false,
+        "printed_text": "At the start of your turn, you may destroy this Sinkhole and an adjacent site.",
+        "quantity": 1,
+        "stripped_printed_text": "At the start of your turn, you may destroy this Sinkhole and an adjacent site."
     }
 ]

@@ -12,6 +12,12 @@
         "position": 1
     },
     {
+        "code": "site",
+        "is_subtype": false,
+        "name": "Site",
+        "position": 8
+    },
+    {
         "code": "asset",
         "is_subtype": false,
         "name": "Asset",

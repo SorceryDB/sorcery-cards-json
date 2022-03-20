@@ -78,6 +78,15 @@
                 "influence_limit",
                 "minimum_deck_size"
             ]
+        },
+        {
+            "properties": {
+                "type_code": {
+                    "enum": [
+                        "site"
+                    ]
+                }
+            }
         }
     ],
     "properties": {
@@ -155,6 +164,10 @@
             "minimum": 0,
             "type": "integer"
         },
+        "nouns": {
+            "minLength": 1,
+            "type": "string"
+        },
         "pack_code": {
             "maxLength": 5,
             "minLength": 2,
@@ -171,6 +184,10 @@
         "quantity": {
             "minimum": 1,
             "type": "integer"
+        },
+        "rarity": {
+            "minLength": 0,
+            "type": "string"
         },
         "strength": {
             "oneOf": [

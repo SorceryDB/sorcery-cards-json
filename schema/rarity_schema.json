@@ -1,0 +1,23 @@
+{
+    "$id": "https://github.com/Alsciende/netrunner-cards-json/blob/master/schema/type_schema.json",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "additionalProperties": false,
+    "properties": {
+        "code": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "name": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "position": {
+            "type": "integer"
+        }
+    },
+    "required": [
+        "code",
+        "name"
+    ],
+    "type": "object"
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "code": "fixed",
+        "name": "Fixed",
+        "position": 0
+    },
+    {
+        "code": "ordinary",
+        "name": "Ordinary",
+        "position": 1
+    },
+    {
+        "code": "exceptional",
+        "name": "Exceptional",
+        "position": 2
+    },
+    {
+        "code": "elite",
+        "name": "Elite",
+        "position": 3
+    },
+    {
+        "code": "unique",
+        "name": "Unique",
+        "position": 4
+    }
+]

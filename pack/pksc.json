@@ -131,5 +131,41 @@
         "type_code": "avatar",
         "type_line": "Your Avatar of transcendant triumph.",
         "uniqueness": false
+    },
+    {
+        "code": "40024",
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "illustrator": "Elwira Pawlikowska",
+        "nouns": "Village - Tower",
+        "pack_code": "pksp",
+        "position": 25,
+        "quantity": 1,
+        "rarity_code": "elite",
+        "stripped_text": "This site is both a Tower and a Village.",
+        "stripped_title": "Windmill",
+        "stripped_type_line": "Wind and Earth toil together in one Elite Site. [Earth] [Wind]",
+        "text": "This site is both a Tower and a Village.",
+        "title": "Windmill",
+        "type_code": "site",
+        "uniqueness": false
+    },
+    {
+        "code": "40016",
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "illustrator": "Michal Nagypal",
+        "nouns": "Sinkhole",
+        "pack_code": "pksp",
+        "position": 17,
+        "quantity": 1,
+        "rarity_code": "elite",
+        "stripped_text": "At the start of your turn, you may destroy this Sinkhole and an adjacent site.",
+        "stripped_title": "Sinkhole",
+        "stripped_type_line": "An Elite Site that is about to disappear. [Earth]",
+        "text": "At the start of your turn, you may destroy this Sinkhole and an adjacent site.",
+        "title": "Sinkhole",
+        "type_code": "site",
+        "uniqueness": false
     }
 ]
