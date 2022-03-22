@@ -185,7 +185,7 @@
             "minimum": 1,
             "type": "integer"
         },
-        "rarity": {
+        "rarity_code": {
             "minLength": 0,
             "type": "string"
         },
