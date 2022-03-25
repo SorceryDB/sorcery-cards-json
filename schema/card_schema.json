@@ -86,7 +86,14 @@
                         "site"
                     ]
                 }
-            }
+            },
+            "required": [
+                "threshold_granted_earth",
+                "threshold_granted_fire",
+                "threshold_granted_total",
+                "threshold_granted_water",
+                "threshold_granted_wind"
+            ]
         }
     ],
     "properties": {
@@ -214,6 +221,26 @@
         "text": {
             "minLength": 1,
             "type": "string"
+        },
+        "threshold_granted_earth": {
+            "minimum": 0,
+            "type": "integer"
+        },
+        "threshold_granted_fire": {
+            "minimum": 0,
+            "type": "integer"
+        },
+        "threshold_granted_total": {
+            "minimum": 0,
+            "type": "integer"
+        },
+        "threshold_granted_water": {
+            "minimum": 0,
+            "type": "integer"
+        },
+        "threshold_granted_wind": {
+            "minimum": 0,
+            "type": "integer"
         },
         "title": {
             "minLength": 1,

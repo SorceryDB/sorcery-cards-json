@@ -146,6 +146,11 @@
         "stripped_title": "Windmill",
         "stripped_type_line": "Wind and Earth toil together in one Elite Site. [Earth] [Wind]",
         "text": "This site is both a Tower and a Village.",
+        "threshold_granted_earth": 1,
+        "threshold_granted_fire": 0,
+        "threshold_granted_total": 2,
+        "threshold_granted_water": 0,
+        "threshold_granted_wind": 1,
         "title": "Windmill",
         "type_code": "site",
         "uniqueness": false
@@ -164,6 +169,11 @@
         "stripped_title": "Sinkhole",
         "stripped_type_line": "An Elite Site that is about to disappear. [Earth]",
         "text": "At the start of your turn, you may destroy this Sinkhole and an adjacent site.",
+        "threshold_granted_earth": 1,
+        "threshold_granted_fire": 0,
+        "threshold_granted_total": 1,
+        "threshold_granted_water": 0,
+        "threshold_granted_wind": 0,
         "title": "Sinkhole",
         "type_code": "site",
         "uniqueness": false
