@@ -1,7 +1,6 @@
 import pandas as pd
-import json
+import json, os, re
 from pprint import pprint as pp
-import re
 
 with open("Sorcery Cards - Sheet1.csv") as file:
     df1 = pd.read_csv(file)
@@ -163,10 +162,10 @@ for index, row in df1.iterrows():
     }
 
 
-    print("\n\r")
+    print("\n")
     print("CARD JSON:")
     print(card_dict)
-    with open(rf".\json_exports\cards\{strip_text(row['Title'])}.json", 'w', newline='\n') as file:
+    with open(os.path.join('json_exports', 'cards', strip_text(row['Title']) + '.json'), 'w', newline='\n') as file:
         json.dump(card_dict, file, indent=4, sort_keys=True)
     print("PRINTING JSON:")
     print(printing_dict)
@@ -179,9 +178,9 @@ for index, row in df1.iterrows():
 
     #if card_id > 40005:
     #    break
-with open(rf".\json_exports\printings\pksc.json", 'w', newline='\n') as file:
+with open(os.path.join('json_exports', 'printings', 'pksc.json'), 'w', newline='\n') as file:
         json.dump(printing_json, file, indent=4, sort_keys=True)
-with open(rf".\json_exports\packs\pksc.json", 'w', newline='\n') as file:
+with open(os.path.join('json_exports', 'packs', 'pksc.json'), 'w', newline='\n') as file:
         json.dump(pack_json, file, indent=4, sort_keys=True)
 
 

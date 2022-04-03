@@ -3,3 +3,12 @@ node_modules/
 *.pyc
 nbproject/
 dist
+!/json_exports/cards
+/json_exports/cards/*
+!json_exports/cards/.gitkeep
+!/json_exports/packs
+/json_exports/packs/*
+!json_exports/packs/.gitkeep
+!/json_exports/printings
+/json_exports/printings/*
+!json_exports/printings/.gitkeep
